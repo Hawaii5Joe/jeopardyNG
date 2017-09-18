@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 import {HttpModule} from '@angular/http';
 import { AppComponent } from './app.component';
 import { JeopardyService} from './jeopardy.service'
+import { FormsModule } from '@angular/forms';
+import { AnswerfieldComponent } from './answerfield/answerfield.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AnswerfieldComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    FormsModule
   ],
   providers: [
     JeopardyService

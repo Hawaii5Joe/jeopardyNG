@@ -9,8 +9,9 @@ import { JeopardyService} from './jeopardy.service'
 export class AppComponent implements OnInit {
   title = 'app';
 
-
+// variables used to make page work
 questionInfo;
+
 
 constructor(private jeopardyService: JeopardyService){}
 
@@ -26,6 +27,7 @@ getDataFromService(){
 ngOnInit(){
   this.getDataFromService()
   }
+
 
 
 }

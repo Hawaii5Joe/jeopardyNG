@@ -1,0 +1,8 @@
+<!-- contestant answer textbox -->
+Answer: <input id="userAnswer" type ="text" [(ngModel)]= "userAnswer">
+<button id="submitButton" (click)="checkAnswer(userAnswer)">Submit Your Answer!</button>
+
+{{checkUserAnswer}}
+<br>
+<br>
+Contestant Score: {{currentScore}}
