@@ -1,0 +1,24 @@
+#answerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1.5px solid white;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+
+}
+
+#submitButton {
+    width: 150px;
+    border-radius: 5px;
+
+}
+
+#userAnswer {
+    border-radius: 5px;
+}
+
+#answerScore {
+    font-size: 20px;
+}

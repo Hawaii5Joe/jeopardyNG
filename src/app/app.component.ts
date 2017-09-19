@@ -20,6 +20,7 @@ getDataFromService(){
       .subscribe(
         questionInfo => {
           this.questionInfo = questionInfo[0];
+          console.log(this.questionInfo);
         }
       )
     }
